@@ -136,13 +136,32 @@ h3 {
 }
 
 /* SIZE */
-#profilepage #numberSeats {
-    width: 6rem;
-    padding: 0.5rem 1rem;
-    margin: 0 1.5rem 1rem 0;
-    border-radius: 0.3rem;
-    font-size: 1rem;
+#profilepage span {
+    cursor: pointer;
+}
+#profilepage #seats-form {
+    width: 15rem;
+}
+#profilepage #minus, #plus {
+    width: 1.8rem;
+	height: 1.5rem;
+	background:#f2f2f2;
+	border-radius: 0.3rem;
+	padding:0.3rem;
+	border:1px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
     text-align: center;
+}
+#profilepage #seats-form input {
+    height:34px;
+    width: 100px;
+    text-align: center;
+    font-size: 26px;
+    border:1px solid #ddd;
+    border-radius:4px;
+    display: inline-block;
+    vertical-align: middle;
 }
 #profilepage #spacePerEmployee input[type=radio] {
     display: none;
