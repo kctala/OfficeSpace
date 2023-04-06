@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Office Space</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+    <body>
+    <section id="profilepage">
+
+        <!-- HEADER SECTION -->
+        <header id="header">
+
+            <!-- LEFT NAVIGATION BAR -->
+            <nav id="leftNav">
+                <div id="logo"><a href="./index.html">Office Space</a></div>
+                <div id="menu">
+                    <ul><li><a href="./size.html">Size</a></li>
+                        <li><a href="./location.html">Location</a></li>
+                        <li><a href="./budget.html">Budget</a></li>
+                        <li><a href="./timeframes.html">Timeframes</a></li>
+                        <li><a href="./results.html">Results</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- CONTACT -->
+            <div id="contact">
+                <p><strong>Have questions?</strong></p>
+                <p>(000) 999-8888</p>
+            </div>
+        </header>
+
+        <!-- MAIN SECTION -->
+        <section id="main">
+            <div id="questions">
+                <h2>We're asking you a few questions to help find you the best space.</h2>
+                <h2>This will only take a few minutes.</h2>
+                <hr>
+            </div>
+            <hr>
+            <div id="choose">
+                <div id="choose-header">
+                    <h1>Choose a size.</h1>
+                    <h3>How many seats do you need?</h3>
+                </div>
+                <div id="choose-answers">
+                    <form action="email" method="post">
+                        <div id="seats">
+                            <p>Number of seats/employees</p>
+                            <input type="number" name="numberSeats" id="numberSeats" step="1" min="0" placeholder="#">
+                        </div>
+
+                        <div id="spacePerEmployee">
+                            <p>Space per employee</p>
+                            <input type="radio" name="spacePerEmployee" id="economy" value="economy">
+                            <label for="economy">Economy</label>
+                            <input type="radio" name="spacePerEmployee" id="average">
+                            <label for="average">Average</label>
+                            <input type="radio" name="spacePerEmployee" id="spacious">
+                            <label for="spacious">Spacious</label>
+                        </div>
+                    </form>
+                </div>
+                <div id="spacingInfo">
+                    <p><strong>Spacing Information</strong></p>
+                    <p id="spacingInfo-economy">The <strong>economy</strong> office is mostly open with bench seating. There are limited conference/meeting rooms.</p>
+                    <p id="spacingInfo-average">The <strong>average</strong> office tends to allocate more space to meeting rooms and open floor desks, less space to private offices.</p>
+                    <p id="spacingInfo-spacious">The <strong>spacious</strong> office allocates most of the space for private offices and meeting rooms.</p>
+                </div>
+            </div>
+            <div id="submit">
+                <button id="next"><a href="./location.html">1/5 ></a></button>
+            </div>
+        </section>
+
+    </section>
+    </body>
+
+    <!-- Link to JavaScript -->
+    <script src="./main.js"></script>
+
+</html>

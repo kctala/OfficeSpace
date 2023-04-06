@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Office Space</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+    <body>
+    <section id="profilepage">
+
+        <!-- HEADER SECTION -->
+        <header id="header">
+
+            <!-- LEFT NAVIGATION BAR -->
+            <nav id="leftNav">
+                <div id="logo"><a href="./index.html">Office Space</a></div>
+                <div id="menu">
+                    <ul><li><a href="./size.html">Size</a></li>
+                        <li><a href="./location.html">Location</a></li>
+                        <li><a href="./budget.html">Budget</a></li>
+                        <li><a href="./timeframes.html">Timeframes</a></li>
+                        <li><a href="./results.html">Results</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- CONTACT -->
+            <div id="contact">
+                <p><strong>Have questions?</strong></p>
+                <p>(000) 999-8888</p>
+            </div>
+        </header>
+
+        <!-- MAIN SECTION -->
+        <section id="main">
+            <div id="questions">
+                <h2>We're asking you a few questions to help find you the best space.</h2>
+                <h2>This will only take a few minutes.</h2>
+                <hr>
+            </div>
+            <div id="choose">
+                <div id="choose-header">
+                    <h1>Choose a location.</h1>
+                    <h3>Choose the city where your company is located to find the best location for your office.</h3>
+                </div>
+                <div id="location">
+                    <div id="select-location">
+                        <select name="city" id="city">
+                            <option value="select">Select a city</option>
+                            <option value="mexicoCity">Mexico City</option>
+                            <option value="tijuana">Tijuana</option>
+                            <option value="leon">León</option>
+                            <option value="puebla">Puebla</option>
+                            <option value="ecatepec">Ecatepec</option>
+                        </select>
+                        <div id="neighborhoods">
+                            <p>Select a Neighborhood:</p>
+                            <div id="neighborhoods-mexicoCity">
+                                <input type="checkbox" name="neighborhood" id="condesa">
+                                <label for="condesa">Condesa</label>
+                                <br>
+                                <input type="checkbox" name="neighborhood" id="juarez">
+                                <label for="juarez">Juarez</label>
+                                <br>
+                                <input type="checkbox" name="neighborhood" id="polanco">
+                                <label for="polanco">Polanco</label>
+                                <br>
+                                <input type="checkbox" name="neighborhood" id="roma">
+                                <label for="roma">Roma</label>
+                            </div>
+                            <div id="neighborhoods-tijuana">
+                                <input type="checkbox" name="neighborhood" id="x">
+                                <label for="x">x</label>
+                                <br>
+                                <input type="checkbox" name="neighborhood" id="y">
+                                <label for="y">y</label>
+                                <br>
+                                <input type="checkbox" name="neighborhood" id="z">
+                                <label for="z">z</label>
+                                <br>
+                                <input type="checkbox" name="neighborhood" id="q">
+                                <label for="q">q</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120432.08228115416!2d-99.21400327046015!3d19.390679705324604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2sMexico%20City%2C%20CDMX%2C%20Mexico!5e0!3m2!1sen!2sco!4v1680743352761!5m2!1sen!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div id="submit">
+                <button id="next"><a href="./location.html">2/5 ></a></button>
+            </div>
+        </section>
+
+    </section>
+    </body>
+
+    <!-- Link to JavaScript -->
+    <script src="./main.js"></script>
+
+
+</html>
